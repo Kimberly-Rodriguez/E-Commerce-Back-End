@@ -40,8 +40,7 @@ Product.init(
       references: {
         model: 'category',
         key: 'id'
-      }
-
+      },
     },
   },
   {
@@ -49,8 +48,8 @@ Product.init(
     timestamps: false,
     freezeTableName: true,
     underscored: true,
-    modelName: 'product',
-  }
+    modelName: 'product'
+  },
 );
 
 module.exports = Product;
