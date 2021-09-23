@@ -1,5 +1,6 @@
 const router = require("express").Router();
 const { Category, Product } = require("../../models");
+const { findByPk } = require("../../models/Category");
 
 // The `/api/categories` endpoint
 
@@ -43,11 +44,12 @@ router.post("/", async (req, res) => {
 router.put("/:id", async (req, res) => {
   // update a category by its `id` value
   try {
-    const keyData = await Category.findByPk(req.body, {
+    const keyData = await Category.update(req.body, {
       where: {
         id: req.params.id
       },
     });
+   
     if (!keyData) {
       res.status(404).json({ message: "no data found" });
       return;
