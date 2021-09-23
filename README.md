@@ -16,7 +16,7 @@ To build the back end for an e-commerce site.
 
 ## Instalation
 
-For installation and deployment, please click [here](https://kimberly-rodriguez.github.io/Employee-Tracker/). The GitHub link is [here](https://github.com/Kimberly-Rodriguez/Employee-Tracker).
+For installation and deployment, please ...
 
 
 * Clone the repo (please reference the links below).
