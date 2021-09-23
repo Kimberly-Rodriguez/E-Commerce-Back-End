@@ -26,7 +26,7 @@ https://github.com/Kimberly-Rodriguez/Employee-Tracker
 
 The following video shows an example of the application being used from the command line:
 
-[video link]()
+[video link](https://watch.screencastify.com/v/3nvaGZMmsU24T3TVdhDS)
 
 
 ## Tools
